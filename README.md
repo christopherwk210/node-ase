@@ -35,3 +35,6 @@ The `header` property contains file header information, like file size, color de
 The `frames` property contains all the frames for the project, as well as every chunk for that frame under the `frames[n].chunks` array. All layers in a frame are organized into the `frames[n].layers` array. A layer also has a `layer.children` array that contains all child layers.
 
 For more information on ase files, [see the spec](https://github.com/aseprite/aseprite/blob/master/docs/ase-file-specs.md).
+
+## License
+MIT
