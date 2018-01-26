@@ -1,0 +1,14 @@
+{
+  "name": "node-ase",
+  "version": "1.0.0",
+  "description": "Aseprite file parser implemented in node",
+  "main": "lib/readAse.js",
+  "keywords": [
+    "Aseprite",
+    "parser",
+    "ase"
+  ],
+  "author": "Chris Anselmo <christopherwk210@gmail.com>",
+  "license": "MIT",
+  "types": "index.d.ts"
+}
