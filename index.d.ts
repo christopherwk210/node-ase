@@ -68,7 +68,10 @@ declare namespace Ase {
     frameHeader: FrameHeader
 
     /** Chunks belonging to this frame */
-    chunks: Array<Chunk>;
+    chunks: Array<Chunk|Ase.CelChunk|Ase.CelExtraChunk|Ase.FrameTagsChunk|Ase.LayerChunk|Ase.PaletteChunk|Ase.SliceChunk|Ase.UserDataChunk>;
+
+    /** Properly nested layer chunks for this frame */
+    layers: Array<Ase.LayerChunk>;
   }
 
   interface Chunk {
