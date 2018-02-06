@@ -27,6 +27,15 @@ let filePath = path.join(__dirname, './myCoolSprite.ase');
 })();
 ```
 
+You can also read .ase files synchronously using the included require hook:
+```
+const readAse = require('node-ase');
+
+let aseFile = require('./myCoolSprite.ase');
+
+console.log( JSON.stringify(aseFile, null, 2) );
+```
+
 ## Reading Information
 node-ase will return an object containing all parsed data. It has two properties, `header` and `frames`.
 

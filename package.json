@@ -1,6 +1,6 @@
 {
   "name": "node-ase",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "Aseprite file parser implemented in node",
   "main": "lib/readAse.js",
   "keywords": [
